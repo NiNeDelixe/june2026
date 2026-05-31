@@ -93,7 +93,7 @@ jobs:
         if: fromJson(steps.get_repo_meta.outputs.data).is_template != true
         run: |
           rm -r -f ${{ env.TEMPLATES_PATH }}
-          rm .github/workflows/template-janitor.yml
+          rm -f .github/workflows/template-janitor.yml
 
       - name: Project Name
         uses: cardinalby/export-env-action@v2
