@@ -87,12 +87,12 @@ jobs:
       - name: Remove unwanted files
         if: fromJson(steps.get_repo_meta.outputs.data).is_template != true
         run: |
-          xargs rm -r < ${{ env.TEMPLATES_PATH }}/removal-list
+          xargs rm -r -f < ${{ env.TEMPLATES_PATH }}/removal-list
 
       - name: Clean up before commit and push
         if: fromJson(steps.get_repo_meta.outputs.data).is_template != true
         run: |
-          rm -r ${{ env.TEMPLATES_PATH }}
+          rm -r -f ${{ env.TEMPLATES_PATH }}
           rm .github/workflows/template-janitor.yml
 
       - name: Project Name
