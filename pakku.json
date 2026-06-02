@@ -1,9 +1,9 @@
 {
-    "name": "pakku-template",
+    "name": "june2026",
     "version": "DEV",
     "release_type": "release",
     "description": "A template pack",
-    "author": "Your Name",
+    "author": "Nanleb",
     "overrides": [
         "config",
         "defaultconfigs",
@@ -27,6 +27,12 @@
     "projects": {
         "chunky":{
             "side":"SERVER"
+        },
+        "create":{
+            "side":"BOTH"
+        },
+        "what-are-they-up-to":{
+            "side":"CLIENT"
         }
     }
 }

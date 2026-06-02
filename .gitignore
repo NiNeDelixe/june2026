@@ -26,6 +26,7 @@ build/
 !pakku.jar
 !pakku.json
 !pakku-lock.json
+hs_err_pid*.log
 
 # Node.js
 **/node_modules/
