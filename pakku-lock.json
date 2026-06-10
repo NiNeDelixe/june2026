@@ -1374,7 +1374,7 @@
                 "jn4SQ1FYxeeWLo6A"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "emi-for-create-stock"
             },
@@ -2153,6 +2153,67 @@
                     ],
                     "size": 2281720,
                     "date_published": "2026-05-13T15:17:45.140659Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xAHDKMrMVtdLHVcx",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "lever-durgster",
+                "modrinth": "lever-drugster"
+            },
+            "name": {
+                "curseforge": "Lever durgster",
+                "modrinth": "Lever durgster"
+            },
+            "id": {
+                "curseforge": "1530992",
+                "modrinth": "GQNtImhh"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lever-drugster-1.5.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8179/736/lever-drugster-1.5.2.jar",
+                    "id": "8179736",
+                    "parent_id": "1530992",
+                    "hashes": {
+                        "sha1": "c07204ec1984f10a45438582e1d0d5d5bf31a362",
+                        "md5": "59cac8f4675ae9f6761e066b6e48166c"
+                    },
+                    "required_dependencies": [],
+                    "size": 355102,
+                    "date_published": "2026-06-01T10:44:09.930Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "lever-drugster-1.5.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/GQNtImhh/versions/CBOri7n8/lever-drugster-1.5.2.jar",
+                    "id": "CBOri7n8",
+                    "parent_id": "GQNtImhh",
+                    "hashes": {
+                        "sha512": "3e71cee4a0193cc6e9cc154f44c040709d28b0c9f3d9af233351b4959f8384aacfae8e7a4a5e747802186a839f2f17546f3a3ed553a0c056eaab25b31aee2b09",
+                        "sha1": "c07204ec1984f10a45438582e1d0d5d5bf31a362"
+                    },
+                    "required_dependencies": [],
+                    "size": 355102,
+                    "date_published": "2026-06-01T10:45:49.963563Z"
                 }
             ]
         },
@@ -3065,6 +3126,74 @@
                     "required_dependencies": [],
                     "size": 12719293,
                     "date_published": "2026-04-28T20:39:11.626262Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "iT3NkMewaJkET9ON",
+            "pakku_links": [
+                "f6Z928DgYCR1DWQ3"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "sable-dramatic-impact",
+                "modrinth": "sable-dramatic-impact"
+            },
+            "name": {
+                "curseforge": "Sable: Dramatic Impact",
+                "modrinth": "Sable: Dramatic Impact"
+            },
+            "id": {
+                "curseforge": "1554669",
+                "modrinth": "82kuUv49"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sabledramaticimpact-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8154/3/sabledramaticimpact-1.0.0.jar",
+                    "id": "8154003",
+                    "parent_id": "1554669",
+                    "hashes": {
+                        "sha1": "04b58bdf124916b1ef3918ecf8e219d4a39f8489",
+                        "md5": "7e3f435fcab22f086c4832151bbe642d"
+                    },
+                    "required_dependencies": [
+                        "1312371"
+                    ],
+                    "size": 45017,
+                    "date_published": "2026-05-27T12:28:15.237Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "sabledramaticimpact-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/82kuUv49/versions/cyLPsvEf/sabledramaticimpact-1.0.0.jar",
+                    "id": "cyLPsvEf",
+                    "parent_id": "82kuUv49",
+                    "hashes": {
+                        "sha512": "88e7399c824f041029cd4411ef689b1c210eb54fe0eb13ea84ab7c19ec5eb87fd596a900af7de231310d73dd8fa8e5a3ce95e7d8247d0c323c4796bca3269622",
+                        "sha1": "04b58bdf124916b1ef3918ecf8e219d4a39f8489"
+                    },
+                    "required_dependencies": [
+                        "T9PomCSv"
+                    ],
+                    "size": 45017,
+                    "date_published": "2026-05-27T12:13:36.547833Z"
                 }
             ]
         },
