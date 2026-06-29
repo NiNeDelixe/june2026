@@ -32,6 +32,38 @@
         },
         "what-are-they-up-to": {
             "side": "CLIENT"
+        },
+        "mob-sunscreen": {
+            "redistributable": true
+        },
+        "plushie-buddies": {
+            "redistributable": true
+        },
+        "entityculling": {
+            "redistributable": true
+        },
+        "no-enchant-glint": {
+            "redistributable": true
+        },
+        "no-potion-particles": {
+            "redistributable": true
+        },
+        "bookshelf": {
+            "side": "BOTH"
+        },
+        "insanelib": {
+            "side": "BOTH"
+        },
+        "sodium": {
+            "side": "CLIENT"
+        },
+        "the-lost-cities": {
+            "side": "BOTH"
+        },
+        "sodium-options-api": {
+            "side": "CLIENT",
+            "update_strategy": "NONE"
         }
-    }
+    },
+    "export_server_side_projects_to_client": false
 }
