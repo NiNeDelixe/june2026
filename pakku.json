@@ -1,7 +1,6 @@
 {
     "name": "june2026",
     "version": "DEV",
-    "release_type": "release",
     "description": "A template pack",
     "author": "Nanleb",
     "overrides": [
@@ -25,14 +24,14 @@
         "resourcepacks"
     ],
     "projects": {
-        "chunky":{
-            "side":"SERVER"
+        "chunky": {
+            "side": "SERVER"
         },
-        "create":{
-            "side":"BOTH"
+        "create": {
+            "side": "BOTH"
         },
-        "what-are-they-up-to":{
-            "side":"CLIENT"
+        "what-are-they-up-to": {
+            "side": "CLIENT"
         }
     }
 }
