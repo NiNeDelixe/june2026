@@ -48,6 +48,9 @@
         "no-potion-particles": {
             "redistributable": true
         },
+        "ragdoll-reactions": {
+            "redistributable": true
+        },
         "bookshelf": {
             "side": "BOTH"
         },
@@ -68,6 +71,16 @@
             "side": "CLIENT",
             "update_strategy": "NONE",
             "export": false
+        },
+        "cool-rain": {
+            "redistributable": true
+        },
+        "fastboot": {
+            "redistributable": true
+        },
+        "data-anchor": {
+            "side": "BOTH",
+            "update_strategy": "NONE"
         }
     },
     "export_server_side_projects_to_client": false
