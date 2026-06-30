@@ -8470,6 +8470,72 @@
             ]
         },
         {
+            "pakku_id": "Ab1S8EXXbfaJzzzo",
+            "pakku_links": [
+                "Xc2mZCCH2gGH8oQx"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "probejs",
+                "modrinth": "probejs"
+            },
+            "name": {
+                "curseforge": "ProbeJS",
+                "modrinth": "ProbeJS"
+            },
+            "id": {
+                "curseforge": "585406",
+                "modrinth": "JJNYRb4B"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ProbeJS-8.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8304/356/ProbeJS-8.0.3.jar",
+                    "id": "8304356",
+                    "parent_id": "585406",
+                    "hashes": {
+                        "sha1": "f0529482eff9596fa01de8a34abdce50529bdf55",
+                        "md5": "e75f422ff541ead9aa48ac5ce21e9448"
+                    },
+                    "required_dependencies": [],
+                    "size": 3405057,
+                    "date_published": "2026-06-23T03:39:13.240Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "ProbeJS-8.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/JJNYRb4B/versions/xC9KUA7R/ProbeJS-8.0.3.jar",
+                    "id": "xC9KUA7R",
+                    "parent_id": "JJNYRb4B",
+                    "hashes": {
+                        "sha512": "342be675356044e7328841eb13116e66e476a6176dea8c634d3ca096b98cf818b314d190e42f2be859c9c9d2c53087fd471b0052e50872c3fc3f5090c813f5f3",
+                        "sha1": "f0529482eff9596fa01de8a34abdce50529bdf55"
+                    },
+                    "required_dependencies": [
+                        "umyGl7zF"
+                    ],
+                    "size": 3405057,
+                    "date_published": "2026-06-22T02:50:08.833695Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "viC26W9pUwtqy3yb",
             "type": "MOD",
             "side": "BOTH",
@@ -9749,6 +9815,7 @@
                 "curseforge": "1103431",
                 "modrinth": "Es5v4eyq"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",

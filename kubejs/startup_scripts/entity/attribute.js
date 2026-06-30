@@ -54,7 +54,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 6.0)
 		entity.add("minecraft:generic.movement_speed", 0.3)
 		entity.add("minecraft:generic.follow_range", 128.0)
-		entity.add("forge:step_height_addition", 1.0)
+		entity.add("minecraft:generic.step_height", 1.0)
 	})
 	event.modify('undead_revamp2:thehunter', entity => { 
 		entity.add("minecraft:generic.max_health", 40.0)
@@ -62,7 +62,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 4.0)
 		entity.add("minecraft:generic.movement_speed", 0.26)
 		entity.add("minecraft:generic.follow_range", 96.0)
-		entity.add("forge:step_height_addition", 1.0)
+		entity.add("minecraft:generic.step_height", 1.0)
 	})
 	event.modify('undead_revamp2:thespitter', entity => { 
 		entity.add("minecraft:generic.max_health", 50.0)
@@ -112,7 +112,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 14.0)
 		entity.add("minecraft:generic.movement_speed", 0.3)
 		entity.add("minecraft:generic.follow_range", 128.0)
-		entity.add("forge:step_height_addition", 1.0)
+		entity.add("minecraft:generic.step_height", 1.0)
 	})
 	event.modify('undead_revamp2:thelurker', entity => { 
 		entity.add("minecraft:generic.max_health", 220.0)
@@ -120,7 +120,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 12.0)
 		entity.add("minecraft:generic.movement_speed", 0.35)
 		entity.add("minecraft:generic.follow_range", 24.0)
-		entity.add("forge:step_height_addition", 2.0)
+		entity.add("minecraft:generic.step_height", 2.0)
 	})
 	event.modify('undead_revamp2:lechery', entity => { 
 		entity.add("minecraft:generic.max_health", 180.0)
@@ -128,7 +128,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 8.0)
 		entity.add("minecraft:generic.movement_speed", 0.42)
 		entity.add("minecraft:generic.follow_range", 48.0)
-		entity.add("forge:step_height_addition", 3.0)
+		entity.add("minecraft:generic.step_height", 3.0)
 	})
 	event.modify('zombie_extreme:infected_military', entity => { 
 		entity.add("minecraft:generic.max_health", 80.0)
@@ -192,7 +192,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 26.0)
 		entity.add("minecraft:generic.movement_speed", 0.2)
 		entity.add("minecraft:generic.follow_range", 64.0)
-		entity.add("forge:step_height_addition", 1.0)
+		entity.add("minecraft:generic.step_height", 1.0)
 	})
 	event.modify('zombie_extreme:night_hunter', entity => { 
 		entity.add("minecraft:generic.max_health", 90.0)
@@ -200,7 +200,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 26.0)
 		entity.add("minecraft:generic.movement_speed", 0.45)
 		entity.add("minecraft:generic.follow_range", 64.0)
-		entity.add("forge:step_height_addition", 2.0)
+		entity.add("minecraft:generic.step_height", 2.0)
 	})
 	event.modify('zombie_extreme:fetus', entity => { 
 		entity.add("minecraft:generic.max_health", 120.0)
@@ -208,7 +208,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 30.0)
 		entity.add("minecraft:generic.movement_speed", 0.3)
 		entity.add("minecraft:generic.follow_range", 64.0)
-		entity.add("forge:step_height_addition", 1.0)
+		entity.add("minecraft:generic.step_height", 1.0)
 	})
 	event.modify('zombie_extreme:explosive_infected', entity => { 
 		entity.add("minecraft:generic.max_health", 60.0)
@@ -251,7 +251,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 40.0)
 		entity.add("minecraft:generic.movement_speed", 0.3)
 		entity.add("minecraft:generic.follow_range", 96.0)
-		entity.add("forge:step_height_addition", 2.0)
+		entity.add("minecraft:generic.step_height", 2.0)
 	})
 	event.modify('zombie_extreme:demolisher', entity => { 
 		entity.add("minecraft:generic.max_health", 500.0)
@@ -259,7 +259,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 60.0)
 		entity.add("minecraft:generic.movement_speed", 0.2)
 		entity.add("minecraft:generic.follow_range", 96.0)
-		entity.add("forge:step_height_addition", 2.0)
+		entity.add("minecraft:generic.step_height", 2.0)
 	})
 	event.modify('zombie_extreme:rat_king', entity => { 
 		entity.add("minecraft:generic.max_health", 700.0)
@@ -267,7 +267,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 30.0)
 		entity.add("minecraft:generic.movement_speed", 0.2)
 		entity.add("minecraft:generic.follow_range", 96.0)
-		entity.add("forge:step_height_addition", 2.0)
+		entity.add("minecraft:generic.step_height", 2.0)
 	})
 	event.modify('undead_revamp2:theheavy', entity => { 
 		entity.add("minecraft:generic.max_health", 600.0)
@@ -275,7 +275,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 35.0)
 		entity.add("minecraft:generic.movement_speed", 0.32)
 		entity.add("minecraft:generic.follow_range", 96.0)
-		entity.add("forge:step_height_addition", 2.0)
+		entity.add("minecraft:generic.step_height", 2.0)
 	})
 	event.modify('undead_revamp2:clogger', entity => { 
 		entity.add("minecraft:generic.max_health", 800.0)
@@ -283,7 +283,7 @@ EntityJSEvents.attributes(event => {
 		entity.add("minecraft:generic.armor", 40.0)
 		entity.add("minecraft:generic.movement_speed", 0.3)
 		entity.add("minecraft:generic.follow_range", 96.0)
-		entity.add("forge:step_height_addition", 2.0)
+		entity.add("minecraft:generic.step_height", 2.0)
 	})
 	event.modify('undead_revamp2:bigsucker', entity => { 
 		entity.add("minecraft:generic.max_health", 250.0)

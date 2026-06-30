@@ -17,22 +17,22 @@ ItemEvents.modification(event => {
 	event.modify('minecraft:shield', item => { 
 		item.setMaxDamage(80.0)
 	})
-	event.modify('apocalypsenow:stopsign_shield', item => { 
-		item.setMaxDamage(160.0)
-	})
-	event.modify('apocalypsenow:trash_shield', item => { 
-		item.setMaxDamage(160.0)
-	})
-	event.modify('apocalypsenow:police_shield', item => { 
-		item.setMaxDamage(400.0)
-	})
-	event.modify('immersiveengineering:shield', item => { 
-		item.setMaxDamage(450.0)
-	})
-	event.modify('apocalypsenow:riot_shield', item => { 
-		item.setMaxDamage(600.0)
-	})
-	event.modify('apocalypsenow:ballistic_shield', item => { 
-		item.setMaxDamage(1250.0)
-	})
+	// event.modify('apocalypsenow:stopsign_shield', item => { 
+	// 	item.setMaxDamage(160.0)
+	// })
+	// event.modify('apocalypsenow:trash_shield', item => { 
+	// 	item.setMaxDamage(160.0)
+	// })
+	// event.modify('apocalypsenow:police_shield', item => { 
+	// 	item.setMaxDamage(400.0)
+	// })
+	// event.modify('immersiveengineering:shield', item => { 
+	// 	item.setMaxDamage(450.0)
+	// })
+	// event.modify('apocalypsenow:riot_shield', item => { 
+	// 	item.setMaxDamage(600.0)
+	// })
+	// event.modify('apocalypsenow:ballistic_shield', item => { 
+	// 	item.setMaxDamage(1250.0)
+	// })
 })

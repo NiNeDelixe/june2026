@@ -40,17 +40,17 @@ let foodOverride = {
 let foodOverrideKeys = Object.keys(foodOverride);
 
 ItemEvents.modification((event) => {
-    let edibleStacks = Ingredient.custom((i) => i.edible).getStacks();
+    // let edibleStacks = Ingredient.custom((i) => i.edible).getStacks(); //TODO Java class IngredientWrapper has no public instance field or method named "custom"
 
-    edibleStacks.forEach((stack) => {
-        let foodProperties = stack.item.foodProperties;
-        if (foodProperties && foodOverrideKeys.includes(stack.item.id)) {
-            event.modify(stack.item.id, (foodItem) => {
-                foodItem.foodProperties = (food) => {
-					food.hunger(foodOverride[stack.item.id][0]);
-					food.saturation(foodOverride[stack.item.id][1]);
-                };
-            });
-        }
-    });
+    // edibleStacks.forEach((stack) => {
+    //     let foodProperties = stack.item.foodProperties;
+    //     if (foodProperties && foodOverrideKeys.includes(stack.item.id)) {
+    //         event.modify(stack.item.id, (foodItem) => {
+    //             foodItem.foodProperties = (food) => {
+	// 				food.hunger(foodOverride[stack.item.id][0]);
+	// 				food.saturation(foodOverride[stack.item.id][1]);
+    //             };
+    //         });
+    //     }
+    // });
 });

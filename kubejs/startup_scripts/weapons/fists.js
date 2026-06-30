@@ -14,35 +14,35 @@ function replaceAttribute(attributeString, value, item) {
 }
 
 ItemEvents.modification(event => {
-	event.modify('apocalypsenow:red_boxing_gloves', item => { 
-		replaceAttribute("generic.attack_damage", 2.0, item)
-		replaceAttribute("generic.attack_speed", -1.6, item)
-		replaceAttribute("apoc_patches:headshot", 1.25, item)
-		item.setMaxDamage(200.0)
-	})
-	event.modify('apocalypsenow:blue_boxing_gloves', item => { 
-		replaceAttribute("generic.attack_damage", 2.0, item)
-		replaceAttribute("generic.attack_speed", -1.6, item)
-		replaceAttribute("apoc_patches:headshot", 1.25, item)
-		item.setMaxDamage(200.0)
-	})
-	event.modify('apocalypsenow:reinforced_red_boxing_gloves', item => { 
-		replaceAttribute("generic.attack_damage", 4.0, item)
-		replaceAttribute("generic.attack_speed", -1.4, item)
-		replaceAttribute("apoc_patches:headshot", 1.25, item)
-		item.setMaxDamage(512.0)
-	})
-	event.modify('apocalypsenow:reinforced_blue_boxing_gloves', item => { 
-		replaceAttribute("generic.attack_damage", 4.0, item)
-		replaceAttribute("generic.attack_speed", -1.4, item)
-		replaceAttribute("apoc_patches:headshot", 1.25, item)
-		item.setMaxDamage(512.0)
-	})
-	event.modify('apocalypsenow:brass_knuckles', item => { 
-		replaceAttribute("generic.attack_damage", 6.0, item)
-		replaceAttribute("generic.attack_speed", -1.4, item)
-		replaceAttribute("apoc_patches:headshot", 1.25, item)
-		item.setMaxDamage(756.0)
-	})
+	// event.modify('apocalypsenow:red_boxing_gloves', item => { 
+	// 	replaceAttribute("generic.attack_damage", 2.0, item)
+	// 	replaceAttribute("generic.attack_speed", -1.6, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.25, item)
+	// 	item.setMaxDamage(200.0)
+	// })
+	// event.modify('apocalypsenow:blue_boxing_gloves', item => { 
+	// 	replaceAttribute("generic.attack_damage", 2.0, item)
+	// 	replaceAttribute("generic.attack_speed", -1.6, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.25, item)
+	// 	item.setMaxDamage(200.0)
+	// })
+	// event.modify('apocalypsenow:reinforced_red_boxing_gloves', item => { 
+	// 	replaceAttribute("generic.attack_damage", 4.0, item)
+	// 	replaceAttribute("generic.attack_speed", -1.4, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.25, item)
+	// 	item.setMaxDamage(512.0)
+	// })
+	// event.modify('apocalypsenow:reinforced_blue_boxing_gloves', item => { 
+	// 	replaceAttribute("generic.attack_damage", 4.0, item)
+	// 	replaceAttribute("generic.attack_speed", -1.4, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.25, item)
+	// 	item.setMaxDamage(512.0)
+	// })
+	// event.modify('apocalypsenow:brass_knuckles', item => { 
+	// 	replaceAttribute("generic.attack_damage", 6.0, item)
+	// 	replaceAttribute("generic.attack_speed", -1.4, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.25, item)
+	// 	item.setMaxDamage(756.0)
+	// })
 
 })

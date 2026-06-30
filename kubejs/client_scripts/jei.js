@@ -1,13 +1,13 @@
-JEIEvents.hideItems(event => {
-	event.hide(/zombie_extreme:.*/)
-	event.hide(/undead_revamp2:.*/)
-	event.hide(/fancytrinkets:.*/)
-	event.hide(/mapperbase:.*/)
-	event.hide(/embellishcraft:.*_wooden_crate/)
-	event.hide(/createbigcannons:bronze_.*/)
-	event.hide(/createbigcannons:unbored_bronze_.*/)
-	event.hide('/spawn_egg/')
+RecipeViewerEvents.removeEntries('item', event => {
+	event.remove(/zombie_extreme:.*/)
+	event.remove(/undead_revamp2:.*/)
+	event.remove(/fancytrinkets:.*/)
+	event.remove(/mapperbase:.*/)
+	event.remove(/embellishcraft:.*_wooden_crate/)
+	event.remove(/createbigcannons:bronze_.*/)
+	event.remove(/createbigcannons:unbored_bronze_.*/)
+	event.remove('/spawn_egg/')
 	global.removal.forEach(itemName => {
-		event.hide(itemName)
+		event.remove(itemName)
 	})
 })

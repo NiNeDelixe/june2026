@@ -63,6 +63,11 @@
         "sodium-options-api": {
             "side": "CLIENT",
             "update_strategy": "NONE"
+        },
+        "probejs": {
+            "side": "CLIENT",
+            "update_strategy": "NONE",
+            "export": false
         }
     },
     "export_server_side_projects_to_client": false

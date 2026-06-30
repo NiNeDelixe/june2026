@@ -50,24 +50,24 @@ ItemEvents.modification(event => {
 		replaceAttribute("apoc_patches:headshot", 1.5, item)
 		item.setMaxDamage(512.0)
 	})
-	event.modify('apocalypsenow:construction_shovel', item => { 
-		replaceAttribute("generic.attack_damage", 5.0, item)
-		replaceAttribute("generic.attack_speed", -2.9, item)
-		replaceAttribute("apoc_patches:headshot", 1.5, item)
-		item.setMaxDamage(512.0)
-	})
-	event.modify('immersiveengineering:shovel_steel', item => { 
-		replaceAttribute("generic.attack_damage", 6.0, item)
-		replaceAttribute("generic.attack_speed", -2.9, item)
-		replaceAttribute("apoc_patches:headshot", 1.5, item)
-		item.setMaxDamage(641.0)
-	})
-	event.modify('apocalypsenow:snow_shovel', item => { 
-		replaceAttribute("generic.attack_damage", 7.0, item)
-		replaceAttribute("generic.attack_speed", -3.1, item)
-		replaceAttribute("apoc_patches:headshot", 1.5, item)
-		item.setMaxDamage(641.0)
-	})
+	// event.modify('apocalypsenow:construction_shovel', item => { 
+	// 	replaceAttribute("generic.attack_damage", 5.0, item)
+	// 	replaceAttribute("generic.attack_speed", -2.9, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.5, item)
+	// 	item.setMaxDamage(512.0)
+	// })
+	// event.modify('immersiveengineering:shovel_steel', item => { 
+	// 	replaceAttribute("generic.attack_damage", 6.0, item)
+	// 	replaceAttribute("generic.attack_speed", -2.9, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.5, item)
+	// 	item.setMaxDamage(641.0)
+	// })
+	// event.modify('apocalypsenow:snow_shovel', item => { 
+	// 	replaceAttribute("generic.attack_damage", 7.0, item)
+	// 	replaceAttribute("generic.attack_speed", -3.1, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.5, item)
+	// 	item.setMaxDamage(641.0)
+	// })
 	event.modify('minecraft:diamond_shovel', item => { 
 		replaceAttribute("generic.attack_damage", 6.0, item)
 		replaceAttribute("generic.attack_speed", -2.9, item)
@@ -92,11 +92,11 @@ ItemEvents.modification(event => {
 		replaceAttribute("apoc_patches:headshot", 1.5, item)
 		item.setMaxDamage(2031.0)
 	})
-	event.modify('apocalypsenow:military_shovel', item => { 
-		replaceAttribute("generic.attack_damage", 8.0, item)
-		replaceAttribute("generic.attack_speed", -2.7, item)
-		replaceAttribute("apoc_patches:headshot", 1.5, item)
-		item.setMaxDamage(2451.0)
-	})
+	// event.modify('apocalypsenow:military_shovel', item => { 
+	// 	replaceAttribute("generic.attack_damage", 8.0, item)
+	// 	replaceAttribute("generic.attack_speed", -2.7, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.5, item)
+	// 	item.setMaxDamage(2451.0)
+	// })
 
 })

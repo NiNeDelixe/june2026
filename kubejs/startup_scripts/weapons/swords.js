@@ -3,14 +3,14 @@ let $UUID = Java.loadClass('java.util.UUID')
 let $string = Java.loadClass('java.lang.String')
 
 function replaceAttribute(attributeString, value, item) {
-	let attributeList = item.getAttributes(attributeString)
-	if (!attributeList.isEmpty()) {
-		attributeList.forEach(attr => {
-			item.removeAttribute(attributeString, attr.id)
-		})
-	}
-	let staticID = $UUID.nameUUIDFromBytes($string.valueOf(item + "-" + attributeString).getBytes())
-	item.addAttribute(attributeString, staticID, attributeString, value, 'addition')
+	// let attributeList = item.getAttributeModifiers(attributeString)
+	// if (!attributeList.isEmpty()) {
+	// 	attributeList.forEach(attr => {
+	// 		item.removeAttribute(attributeString, attr.id)
+	// 	})
+	// }
+	// let staticID = $UUID.nameUUIDFromBytes($string.valueOf(item + "-" + attributeString).getBytes())
+	// item.addAttribute(attributeString, staticID, attributeString, value, 'addition')
 }
 
 ItemEvents.modification(event => {
@@ -74,17 +74,17 @@ ItemEvents.modification(event => {
 		replaceAttribute("apoc_patches:headshot", 1.35, item)
 		item.setMaxDamage(1651.0)
 	})
-	event.modify('apocalypsenow:tactical_sword', item => { 
-		replaceAttribute("generic.attack_damage", 11.0, item)
-		replaceAttribute("generic.attack_speed", -2.2, item)
-		replaceAttribute("apoc_patches:headshot", 1.35, item)
-		item.setMaxDamage(2142.0)
-	})
-	event.modify('apocalypsenow:tactical_saber', item => { 
-		replaceAttribute("generic.attack_damage", 10.0, item)
-		replaceAttribute("generic.attack_speed", -2.0, item)
-		replaceAttribute("apoc_patches:headshot", 1.35, item)
-		item.setMaxDamage(2142.0)
-	})
+	// event.modify('apocalypsenow:tactical_sword', item => { 
+	// 	replaceAttribute("generic.attack_damage", 11.0, item)
+	// 	replaceAttribute("generic.attack_speed", -2.2, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.35, item)
+	// 	item.setMaxDamage(2142.0)
+	// })
+	// event.modify('apocalypsenow:tactical_saber', item => { 
+	// 	replaceAttribute("generic.attack_damage", 10.0, item)
+	// 	replaceAttribute("generic.attack_speed", -2.0, item)
+	// 	replaceAttribute("apoc_patches:headshot", 1.35, item)
+	// 	item.setMaxDamage(2142.0)
+	// })
 
 })
