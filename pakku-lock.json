@@ -5686,50 +5686,48 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "iris-neoforge-1.8.12+mc1.21.1.jar",
+                    "type": "modrinth",
+                    "file_name": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6661/598/iris-neoforge-1.8.12+mc1.21.1.jar",
-                    "id": "6661598",
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+                    "id": "KduFYu4t",
+                    "parent_id": "YL57xq9U",
+                    "hashes": {
+                        "sha512": "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2feb167923d6d14d1fc7e8ee1a977ec421b19d1951bdca74c4092b9c5",
+                        "sha1": "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
+                    },
+                    "required_dependencies": [],
+                    "size": 2540723,
+                    "date_published": "2026-06-13T15:57:14.116693Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8242/804/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+                    "id": "8242804",
                     "parent_id": "455508",
                     "hashes": {
-                        "sha1": "a3e6355915c7d3b2bc392724795113e51d289378",
-                        "md5": "6c1122aa7c2b1a4f24831e394c5b513f"
+                        "sha1": "1bd129cf7bce65d6b1c0543045f0620c98a0f885",
+                        "md5": "6b68276a6718656ec476cfac69dfe013"
                     },
                     "required_dependencies": [
                         "394468"
                     ],
-                    "size": 2438548,
-                    "date_published": "2025-06-17T15:53:15.717Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "iris-neoforge-1.8.12+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.8.12+mc1.21.1.jar",
-                    "id": "t3ruzodq",
-                    "parent_id": "YL57xq9U",
-                    "hashes": {
-                        "sha512": "57b8026a3c3c433cf6123d63dc6ce7e11f6d480a72926370db1fc7f2b06059bc16a753ecd7e7af659c19e90b592103196b0e89585ce4f0744a4ca433f59bcf1a",
-                        "sha1": "a3e6355915c7d3b2bc392724795113e51d289378"
-                    },
-                    "required_dependencies": [
-                        "AANobbMI"
-                    ],
-                    "size": 2438548,
-                    "date_published": "2025-06-17T15:51:56.477905Z"
+                    "size": 2540723,
+                    "date_published": "2026-06-13T15:58:55.503Z"
                 }
             ]
         },
@@ -7166,7 +7164,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-neoforge-1.21.1-3.0.16.jar",
+                    "file_name": "moonlight-neoforge-1.21.1-3.0.22.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -7174,16 +7172,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8156/754/moonlight-neoforge-1.21.1-3.0.16.jar",
-                    "id": "8156754",
+                    "url": "https://edge.forgecdn.net/files/8343/403/moonlight-neoforge-1.21.1-3.0.22.jar",
+                    "id": "8343403",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "494ac7255ab0321f01a980cc21f1a3a5e4c0cf74",
-                        "md5": "78bfff6f1beb16ff3f3ec13bc279f8c8"
+                        "sha1": "98f1a1ca3e51d73cae5187a21dec4d0e153c4f01",
+                        "md5": "d558f435ebe9a29ea447124de79649ae"
                     },
                     "required_dependencies": [],
-                    "size": 1576577,
-                    "date_published": "2026-05-27T23:31:06.097Z"
+                    "size": 1609513,
+                    "date_published": "2026-06-29T23:29:56.427Z"
                 }
             ]
         },
@@ -8475,7 +8473,7 @@
                 "Xc2mZCCH2gGH8oQx"
             ],
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "probejs",
                 "modrinth": "probejs"
@@ -8488,6 +8486,8 @@
                 "curseforge": "585406",
                 "modrinth": "JJNYRb4B"
             },
+            "update_strategy": "NONE",
+            "export": false,
             "files": [
                 {
                     "type": "curseforge",
@@ -10444,50 +10444,50 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "supplementaries-neoforge-1.21.1-3.6.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8120/873/supplementaries-neoforge-1.21.1-3.6.5.jar",
-                    "id": "8120873",
-                    "parent_id": "412082",
-                    "hashes": {
-                        "sha1": "3ed53e2480eea26271f10eff7777feff4af3c415",
-                        "md5": "a946e482d5903d4b642c6d5e12659673"
-                    },
-                    "required_dependencies": [
-                        "499980"
-                    ],
-                    "size": 13304373,
-                    "date_published": "2026-05-20T23:09:48.217Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "supplementaries-neoforge-1.21.1-3.6.5.jar",
+                    "file_name": "supplementaries-neoforge-1.21.1-3.7.4.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/4XwZg5Dq/supplementaries-neoforge-1.21.1-3.6.5.jar",
-                    "id": "4XwZg5Dq",
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/53oYzPfG/supplementaries-neoforge-1.21.1-3.7.4.jar",
+                    "id": "53oYzPfG",
                     "parent_id": "fFEIiSDQ",
                     "hashes": {
-                        "sha512": "b36703fc4cf3e534fe10137ac1dc2de6ab9b60b5c511602efd1ee04687e461308c919bd9e154135e978b74765b4847fab351ee50cd10c0f2d195d1a184c976a7",
-                        "sha1": "3ed53e2480eea26271f10eff7777feff4af3c415"
+                        "sha512": "d386c8d77cf6c3a0604aff7f33f7a79279ede305ace51cb67b6a9ee90ec6ac6e46790d7d881335cb05a7b344c510909b645ed294a6060d0c9a93bbc71a5ac47e",
+                        "sha1": "5760d4a60b539a94ef7a19ae17ccc22818979780"
                     },
                     "required_dependencies": [
                         "twkfQtEc"
                     ],
-                    "size": 13304373,
-                    "date_published": "2026-05-20T23:09:59.323892Z"
+                    "size": 13372466,
+                    "date_published": "2026-06-21T18:15:30.857297Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "supplementaries-neoforge-1.21.1-3.7.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8295/456/supplementaries-neoforge-1.21.1-3.7.4.jar",
+                    "id": "8295456",
+                    "parent_id": "412082",
+                    "hashes": {
+                        "sha1": "5760d4a60b539a94ef7a19ae17ccc22818979780",
+                        "md5": "c613b92ed72a16dfa0ed54790efb941b"
+                    },
+                    "required_dependencies": [
+                        "499980"
+                    ],
+                    "size": 13372466,
+                    "date_published": "2026-06-21T18:14:37.623Z"
                 }
             ]
         },
@@ -10512,52 +10512,52 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "suppsquared-1.21-1.2.17-neoforge.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7351/827/suppsquared-1.21-1.2.17-neoforge.jar",
-                    "id": "7351827",
-                    "parent_id": "838411",
-                    "hashes": {
-                        "sha1": "a0832a81277149fc38b7f0858122e1c451affa56",
-                        "md5": "d82d7906a949a0e2a12329ae0b934f86"
-                    },
-                    "required_dependencies": [
-                        "499980"
-                    ],
-                    "size": 774220,
-                    "date_published": "2025-12-19T00:31:52.193Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "suppsquared-1.21-1.2.17-neoforge.jar",
+                    "file_name": "suppsquared-neoforge-1.21-1.2.18.jar",
                     "mc_versions": [
-                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/dCCkNFwE/versions/6LgMCeqW/suppsquared-1.21-1.2.17-neoforge.jar",
-                    "id": "6LgMCeqW",
+                    "url": "https://cdn.modrinth.com/data/dCCkNFwE/versions/1uYFhgHN/suppsquared-neoforge-1.21-1.2.18.jar",
+                    "id": "1uYFhgHN",
                     "parent_id": "dCCkNFwE",
                     "hashes": {
-                        "sha512": "19b9fdb01b79784d67efcfc349dd1eac0c2862f0c2177cf2513be99c18b3ddf00756b4880273c3785954ab48d686cbbce4b003dad6ec61da78cc5b6424859047",
-                        "sha1": "a0832a81277149fc38b7f0858122e1c451affa56"
+                        "sha512": "e396e5b460fcbed33fb9ee53c6e58e47df7a98a93354c91d5a28d407d82eb835baeabbc92fe7cf41fcfe070fdd7f5b78b1e2ba302eb1cec149c7cc09f5bdbad9",
+                        "sha1": "f93ecd5d8dbbb86f9e80a887dafa75ded4fade9c"
                     },
                     "required_dependencies": [
-                        "twkfQtEc"
+                        "twkfQtEc",
+                        "fFEIiSDQ"
                     ],
-                    "size": 774220,
-                    "date_published": "2025-12-19T00:31:58.676387Z"
+                    "size": 752062,
+                    "date_published": "2026-06-17T21:32:15.784097Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "suppsquared-neoforge-1.21-1.2.18.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8268/988/suppsquared-neoforge-1.21-1.2.18.jar",
+                    "id": "8268988",
+                    "parent_id": "838411",
+                    "hashes": {
+                        "sha1": "0b6845d2afd22f91275a69ad270a0f0ecbfaebe3",
+                        "md5": "6033949394b86f08246a2f7f81ef9bee"
+                    },
+                    "required_dependencies": [
+                        "412082",
+                        "499980"
+                    ],
+                    "size": 752062,
+                    "date_published": "2026-06-17T21:32:22.767Z"
                 }
             ]
         },

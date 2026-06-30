@@ -58,7 +58,6 @@
 		"bridgeSupports": true,
 		"parkElevation": false,
 		"parkBorder": false,
-		"worldStyle": "c70cities:modern",
 		"buildingMaxFloors": 5,
 		"avoidFoliage":false,
 		"buildingMinCellars":0,
